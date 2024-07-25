@@ -1,0 +1,15 @@
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\bin\Debug\net8.0\CalculadorDeCircuitosAutomatico.exe
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\bin\Debug\net8.0\CalculadorDeCircuitosAutomatico.deps.json
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\bin\Debug\net8.0\CalculadorDeCircuitosAutomatico.runtimeconfig.json
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\bin\Debug\net8.0\CalculadorDeCircuitosAutomatico.dll
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\bin\Debug\net8.0\CalculadorDeCircuitosAutomatico.pdb
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\obj\Debug\net8.0\CalculadorDeCircuitosAutomatico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\obj\Debug\net8.0\CalculadorDeCircuitosAutomatico.AssemblyInfoInputs.cache
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\obj\Debug\net8.0\CalculadorDeCircuitosAutomatico.AssemblyInfo.cs
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\obj\Debug\net8.0\CalculadorDeCircuitosAutomatico.csproj.CoreCompileInputs.cache
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\obj\Debug\net8.0\CalculadorDeCircuitosAutomatico.sourcelink.json
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\obj\Debug\net8.0\CalculadorDeCircuitosAutomatico.dll
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\obj\Debug\net8.0\refint\CalculadorDeCircuitosAutomatico.dll
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\obj\Debug\net8.0\CalculadorDeCircuitosAutomatico.pdb
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\obj\Debug\net8.0\CalculadorDeCircuitosAutomatico.genruntimeconfig.cache
+C:\Users\Giovanni Peirone\Documents\GitHub\CalculadorDeCircuitosAutomatico\obj\Debug\net8.0\ref\CalculadorDeCircuitosAutomatico.dll
