@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giovanni Peirone\\Documents\\GitHub\\CalculadorDeCircuitosAutomatico\\CalculadorDeCircuitosAutomatico.csproj": {}
+    "D:\\GitHub\\CalculadorDeCircuitosAutomatico\\CalculadorDeCircuitosAutomatico.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Giovanni Peirone\\Documents\\GitHub\\CalculadorDeCircuitosAutomatico\\CalculadorDeCircuitosAutomatico.csproj": {
+    "D:\\GitHub\\CalculadorDeCircuitosAutomatico\\CalculadorDeCircuitosAutomatico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giovanni Peirone\\Documents\\GitHub\\CalculadorDeCircuitosAutomatico\\CalculadorDeCircuitosAutomatico.csproj",
+        "projectUniqueName": "D:\\GitHub\\CalculadorDeCircuitosAutomatico\\CalculadorDeCircuitosAutomatico.csproj",
         "projectName": "CalculadorDeCircuitosAutomatico",
-        "projectPath": "C:\\Users\\Giovanni Peirone\\Documents\\GitHub\\CalculadorDeCircuitosAutomatico\\CalculadorDeCircuitosAutomatico.csproj",
-        "packagesPath": "C:\\Users\\Giovanni Peirone\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giovanni Peirone\\Documents\\GitHub\\CalculadorDeCircuitosAutomatico\\obj\\",
+        "projectPath": "D:\\GitHub\\CalculadorDeCircuitosAutomatico\\CalculadorDeCircuitosAutomatico.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\CalculadorDeCircuitosAutomatico\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Giovanni Peirone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
