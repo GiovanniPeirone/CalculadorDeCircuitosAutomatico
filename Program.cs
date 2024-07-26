@@ -52,24 +52,36 @@ void CrearBateria(int X,int Y)
 
 void MenuUno(int posY)
 {
-    int posFlechaY;
+    int posFlechaY = 1;
     while (true)
     {
-        Console.SetCursorPosition(10, posY)
-        Console.WriteLine("[Comenzar a Dibujar Y Calcular]");
-        Console.SetCursorPosition(10, posY + 1)
-        Console.WriteLine("[Salir]");
+        if (posFlechaY == 1)
+        {
+            Console.SetCursorPosition(10, posY);
+            Console.WriteLine("[Comenzar]");
+        }
+        else
+        {
+            Console.SetCursorPosition(10, posY);
+            Console.WriteLine(" Comenzar");
+        }
 
-        if (posY == posY)
+        if (posFlechaY == 2)
         {
-            Console.WriteLine(Console.SetCursorPosition(5, posFlechaY));
-            Console.WriteLine("=>");
+            Console.SetCursorPosition(10, posY + 1);
+            Console.WriteLine("[Salir]");
         }
-        if (posY == posY + 1)
+        else
         {
-            Console.WriteLine(Console.SetCursorPosition(5, posY));
-            Console.WriteLine("=>");
+            Console.SetCursorPosition(10, posY + 1);
+            Console.WriteLine(" Salir ");
         }
+
+        if (ConsoleKey == ConsoleKey.Enter)
+        {
+            break;
+        }
+
     }
 }
 
@@ -79,13 +91,14 @@ int BateriaPosY = Console.LargestWindowHeight / 2;
 
 while (true)
 {
-    MenuUno(Console.LargestWindowHeight / 2);
+    //MenuUno(Console.LargestWindowHeight / 2);
 
-
-
-
-    //CrearBateria(BateriaPosX, BateriaPosY);
-    
-    
+    CrearBateria(BateriaPosX, BateriaPosY);
+    /*
+    if (ConsoleKey == ConsoleKey.W)
+    {
+        BateriaPosY - 1;
+    }
+    */
 }
 

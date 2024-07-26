@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalculadorDeCircuitosAutomatico")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f0e8c6af78a2a85a162d655f961da9e5e65d45e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b62bcff9dcf61bfd5bc76e92c44f0f55912c972")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalculadorDeCircuitosAutomatico")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalculadorDeCircuitosAutomatico")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
