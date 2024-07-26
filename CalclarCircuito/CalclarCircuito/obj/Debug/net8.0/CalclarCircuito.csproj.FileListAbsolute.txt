@@ -1,0 +1,15 @@
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\bin\Debug\net8.0\CalclarCircuito.exe
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\bin\Debug\net8.0\CalclarCircuito.deps.json
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\bin\Debug\net8.0\CalclarCircuito.runtimeconfig.json
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\bin\Debug\net8.0\CalclarCircuito.dll
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\bin\Debug\net8.0\CalclarCircuito.pdb
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\obj\Debug\net8.0\CalclarCircuito.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\obj\Debug\net8.0\CalclarCircuito.AssemblyInfoInputs.cache
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\obj\Debug\net8.0\CalclarCircuito.AssemblyInfo.cs
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\obj\Debug\net8.0\CalclarCircuito.csproj.CoreCompileInputs.cache
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\obj\Debug\net8.0\CalclarCircuito.sourcelink.json
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\obj\Debug\net8.0\CalclarCircuito.dll
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\obj\Debug\net8.0\refint\CalclarCircuito.dll
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\obj\Debug\net8.0\CalclarCircuito.pdb
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\obj\Debug\net8.0\CalclarCircuito.genruntimeconfig.cache
+D:\GitHub\CalculadorDeCircuitosAutomatico\CalclarCircuito\CalclarCircuito\obj\Debug\net8.0\ref\CalclarCircuito.dll
