@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{723902BA-AE7F-4515-B84D-18D2D31232CB}|CalclarCircuito\\CalclarCircuito.csproj|d:\\github\\calculadordecircuitosautomatico\\calclarcircuito\\calclarcircuito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{723902BA-AE7F-4515-B84D-18D2D31232CB}|CalclarCircuito\\CalclarCircuito.csproj|solutionrelative:calclarcircuito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723902BA-AE7F-4515-B84D-18D2D31232CB}|CalclarCircuito\\CalclarCircuito.csproj|d:\\github\\calculadordecircuitosautomatico\\calclarcircuito\\calclarcircuito\\circuito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723902BA-AE7F-4515-B84D-18D2D31232CB}|CalclarCircuito\\CalclarCircuito.csproj|solutionrelative:calclarcircuito\\circuito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723902BA-AE7F-4515-B84D-18D2D31232CB}|CalclarCircuito\\CalclarCircuito.csproj|d:\\github\\calculadordecircuitosautomatico\\calclarcircuito\\calclarcircuito\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723902BA-AE7F-4515-B84D-18D2D31232CB}|CalclarCircuito\\CalclarCircuito.csproj|solutionrelative:calclarcircuito\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +22,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 203,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UI.cs",
+              "DocumentMoniker": "D:\\GitHub\\CalculadorDeCircuitosAutomatico\\CalclarCircuito\\CalclarCircuito\\UI.cs",
+              "RelativeDocumentMoniker": "CalclarCircuito\\UI.cs",
+              "ToolTip": "D:\\GitHub\\CalculadorDeCircuitosAutomatico\\CalclarCircuito\\CalclarCircuito\\UI.cs",
+              "RelativeToolTip": "CalclarCircuito\\UI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T18:16:44.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Circuito.cs",
+              "DocumentMoniker": "D:\\GitHub\\CalculadorDeCircuitosAutomatico\\CalclarCircuito\\CalclarCircuito\\Circuito.cs",
+              "RelativeDocumentMoniker": "CalclarCircuito\\Circuito.cs",
+              "ToolTip": "D:\\GitHub\\CalculadorDeCircuitosAutomatico\\CalclarCircuito\\CalclarCircuito\\Circuito.cs",
+              "RelativeToolTip": "CalclarCircuito\\Circuito.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:21:07.776Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +62,7 @@
               "RelativeDocumentMoniker": "CalclarCircuito\\Program.cs",
               "ToolTip": "D:\\GitHub\\CalculadorDeCircuitosAutomatico\\CalclarCircuito\\CalclarCircuito\\Program.cs",
               "RelativeToolTip": "CalclarCircuito\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAALAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAD8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T22:03:04.375Z",
               "EditorCaption": ""

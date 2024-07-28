@@ -1,99 +1,101 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
+using CalclarCircuito;
+
 
 Console.CursorVisible = false;
 
 Console.SetWindowSize(Console.LargestWindowWidth, Console.LargestWindowHeight);
 
 
-void CrearBateria(int X, int Y)
-{
-    int XMax = X + 11;
-    int XMedio = X + 5;
 
-    for (int i = X; i < XMax; i++)
-    {
-        Console.SetCursorPosition(i, Y);
-        if (i == XMedio)
-        {
-            Console.WriteLine("┴");
-        }
-        else
-        {
-            Console.WriteLine("─");
-        }
-
-    }
-
-    X = X + 2;
-    XMax = X + 7;
-    XMedio = X + 3;
-    int YAbajo = Y + 1;
-
-    for (int i = X; i < XMax; i++)
-    {
-        Console.SetCursorPosition(i, YAbajo);
-
-        if (i == XMedio)
-        {
-            Console.WriteLine("┬");
-        }
-        else
-        {
-            Console.WriteLine("─");
-        }
-
-
-
-    }
-}
-bool MenuUno(int posY)
-{
-    ConsoleKeyInfo FlechaY;
-    int posFlechaY = 1;
-    while (true)
-    {
-        
-    }
-    
-}
-
-
-
+int ID = 1;
 int BateriaPosX = 30;
 int BateriaPosY = 30;
 ConsoleKeyInfo consoleKeyInfo;
+Circuito circuito = new Circuito();
+UI ui = new UI();
+
 
 //bool main = MenuUno(Console.LargestWindowHeight / 2);
 
+
+
 while (true)
 {
+
+    //ui.MenuUno(10);
+   
+    circuito.CrearBateria(BateriaPosX, BateriaPosY);
+    int RotacionInicial = 90;
+
+    //CadenaDecables cadenaDecables = new CadenaDecables();
+
     
-
-    CrearBateria(BateriaPosX, BateriaPosY);
-
-
     consoleKeyInfo = Console.ReadKey(true);
 
-    if (consoleKeyInfo.Key == ConsoleKey.RightArrow)
+    switch (consoleKeyInfo.Key)
     {
-        BateriaPosX += 1;
+        case ConsoleKey.RightArrow:
+
+            BateriaPosX += 1;
+            break;
+
+        case ConsoleKey.LeftArrow:
+
+            BateriaPosX -= 1;
+            break;
+
+        case ConsoleKey.UpArrow:
+
+            BateriaPosY -= 1;
+            break;
+
+        case ConsoleKey.DownArrow:
+
+            BateriaPosY  += 1;
+            break;
     }
-    if (consoleKeyInfo.Key == ConsoleKey.LeftArrow)
+    
+
+    if (RotacionInicial == 90)
     {
-        BateriaPosX -= 1;
-    }
-    if (consoleKeyInfo.Key == ConsoleKey.UpArrow)
-    {
-        BateriaPosY -= 1;
-    }
-    if (consoleKeyInfo.Key == ConsoleKey.DownArrow)
-    {
-        BateriaPosY += 1;
+        Console.CursorVisible = true;
+        switch (consoleKeyInfo.Key)
+        {
+            case ConsoleKey.W:
+                Console.WriteLine("│");
+                break;
+            case ConsoleKey.A:
+                Console.WriteLine("┐");
+                break;
+            case ConsoleKey.S:
+                Console.WriteLine("┌");
+                break;
+
+            case ConsoleKey.Spacebar:
+                CadenaDecables cadenaDecables = new CadenaDecables();
+                cadenaDecables._id = ID;
+                break;
+
+            case ConsoleKey.Y:
+
+                break;
+        }
     }
 
 
+
+    ID++;
     Console.Clear();
 }
 
+
+struct CadenaDecables
+{
+    int posX ; 
+    int posY;
+    int Rotacion;
+    public int _id;
+};
