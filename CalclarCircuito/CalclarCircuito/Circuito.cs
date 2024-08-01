@@ -8,10 +8,39 @@ namespace CalclarCircuito
 {
     public class Circuito
     {
+        public int Id { get; set; }
+
+        public int posX { get; set; }
+
+        public int posY { get; set; }
+
+        public string Name { get; set; }
+
+        public string Description { get; set; }
 
 
 
-        public void CrearBateria(int X, int Y)
+        public Circuito()
+        {
+
+        }
+
+
+        public void imprimirCircuito(int id)
+        {
+            if (id == 0)
+            {
+                CrearBateria(posX, posY);
+            }
+        } 
+
+
+        public void CrearCable()
+        {
+
+        }
+
+        public int CrearBateria(int X, int Y)
         { 
             int XMax = X + 11;
             int XMedio = X + 5;
@@ -29,6 +58,8 @@ namespace CalclarCircuito
                 }
 
             }
+
+            int valorRetornableParaLaSalida = XMedio;
 
             X = X + 2;
             XMax = X + 7;
@@ -48,6 +79,9 @@ namespace CalclarCircuito
                     Console.WriteLine("─");
                 }
             }
+            
+            return valorRetornableParaLaSalida;
+
         }
     }
 }
