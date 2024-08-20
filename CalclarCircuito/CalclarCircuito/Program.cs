@@ -8,7 +8,7 @@ using System.Runtime.CompilerServices;
 
 
 int InitialPosX = 60;
-int InitialPosY = 1;
+int InitialPosY = 4;
 Double Intensidad = 0;
 int Y = InitialPosX+1;
 
@@ -22,6 +22,8 @@ List<Componentes> ListaDeComponentes = new List<Componentes>
 };
 
 List<Componentes> ResistenciaTotalLista = new List<Componentes>();
+
+List<Ventanas> Ventanas = new List<Ventanas>();
 
 void ImprimirBeteriaInicial(int i)
 {
@@ -58,6 +60,13 @@ void ImprimirCerrarCircuito(int i)
     Console.WriteLine("FIN");
 }
 
+void ImprimirResistenciaParalela(int i)
+{
+    Console.SetCursorPosition(ListaDeComponentes[i].posX, ListaDeComponentes[i].posY);
+    Console.WriteLine("┼");
+
+}
+
 void ImprimirGrafico() 
 {
     for (int i = 0; ListaDeComponentes.Count > i; i++)
@@ -77,11 +86,27 @@ void ImprimirGrafico()
             ImprimirResistencia(i);
         }
 
+        if (ListaDeComponentes[i].Name == "ResistenciaParalela")
+        {
+            ImprimirResistenciaParalela(i);
+        }
+
         if (ListaDeComponentes[i].Name == "CerrarCircuito")
         {
             ImprimirCerrarCircuito(i);
         }
+
     }
+}
+
+void ImprimirVentanaParalela()
+{
+    for (int i = 0; Ventanas.Count > i; i++)
+    {
+        Console.SetCursorPosition(Ventanas[i].posVX ,0);
+        Console.WriteLine($" {Ventanas[i].canalesDeVentana} - {Ventanas[i].nDeVentana} |");
+    }
+    
 }
 
 Double CalcularResitenciaTotal()
@@ -109,14 +134,16 @@ Double CalcularIntenciad(Double VoltiosIniciales, Double ValorDeresistencia)
     
 }
 
-
-Y = 2;
+int posVx = 0;
+int nDeVentanas = 0;
+Y = InitialPosY +1;
 Double ValorDeReccistencia = 0;
 Double ResistenciaTotal = 0;
 
 while (true)
 {
-    Console.SetCursorPosition(2, 2);
+    ImprimirVentanaParalela();
+    Console.SetCursorPosition(2, 5);
     Console.WriteLine($"RT = {ResistenciaTotal} ohm");
     ImprimirGrafico();
 
@@ -141,6 +168,19 @@ while (true)
         Y = Y + 1;
     }
 
+    if (Key.Key == ConsoleKey.P)
+    {
+        Console.WriteLine("Cuantos Canales tiene la Resistencia Paralela");
+        int Canales = Convert.ToInt32(Console.ReadLine());
+        Console.Clear();
+        ListaDeComponentes.Add(new Componentes { Name = "ResistenciaParalela", posX = 60, posY = Y, Valor = Canales });
+        Ventanas.Add(new Ventanas { canalesDeVentana = Canales, nDeVentana = nDeVentanas, posVX = posVx }); 
+        nDeVentanas++;
+        posVx = +10;
+        Y = Y + 1;
+
+    }
+
     if (Key.Key == ConsoleKey.Escape)
     {
         ListaDeComponentes.Add(new Componentes { Name = "CerrarCircuito", posX = 60, posY = Y, Valor = 0});
@@ -149,6 +189,15 @@ while (true)
     }
 }
 
+public class Ventanas
+{
+    public int nDeVentana { get; set; }
+
+    public int canalesDeVentana {  set; get; }
+
+    public int posVX { get; set; }
+
+}
 public class Componentes
 {
     public string? Name { get; set; }
@@ -160,6 +209,3 @@ public class Componentes
     public Double Valor { get; set; }
 
 }
-
-
-
