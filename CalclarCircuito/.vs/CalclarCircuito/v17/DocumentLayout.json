@@ -14,11 +14,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 203,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2d7728c2-de0a-45b5-99aa-89b609dfde73}"
             },
             {
               "$type": "Document",
@@ -28,7 +32,7 @@
               "RelativeDocumentMoniker": "CalclarCircuito\\Program.cs",
               "ToolTip": "D:\\GitHub\\CalculadorDeCircuitosAutomatico\\CalclarCircuito\\CalclarCircuito\\Program.cs",
               "RelativeToolTip": "CalclarCircuito\\Program.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAKkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T22:03:04.375Z",
               "EditorCaption": ""
