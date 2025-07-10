@@ -1,1 +1,2 @@
-This aplication simulates a simple electrical sircuit
+this application simulates a simple electrical circuit
+------------------------------------------------------
